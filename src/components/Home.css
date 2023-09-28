@@ -1,0 +1,52 @@
+/* Navbar.css */
+
+.header {
+  background-color: #007bff;
+  height: 6rem;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+}
+
+.logo {
+    margin-left: 5rem;
+    font-size: 2.3rem;
+    color: white;
+    font-family:fantasy;
+    letter-spacing: 2.5px;
+    cursor: pointer;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin-right: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+
+.username{
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+.log{
+    height: 3rem;
+    width: 8rem;
+    padding: 1rem 2rem;
+    background-color: #85b5e9;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
